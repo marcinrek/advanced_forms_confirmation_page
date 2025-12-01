@@ -1,0 +1,23 @@
+{
+  "name": "advanced_forms_confirmation_page",
+  "version": "1.0.0",
+  "description": "JS based confirmation page for Squiz Advanced Forms",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.js production",
+    "dev": "node esbuild.config.js",
+    "watch": "node esbuild.config.js"
+  },
+  "keywords": [
+    "squiz",
+    "advanced",
+    "forms",
+    "dxp"
+  ],
+  "author": "Marcin Rek <m@rek> (https://github.com/marcinrek)",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.19.0"
+  }
+}
