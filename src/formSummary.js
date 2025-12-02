@@ -448,10 +448,14 @@ export function updateSummaryVisibility(form) {
 // Initialize summary functionality
 export function initFormSummary() {
   const form = document.querySelector('form');
-  if (!form) return;
+  if (!form) {
+    console.log('No form found');
+    return;
+  }
 
   // Check if this is a multi-page form
   if (!isMultiPageForm(form)) {
+    console.log('Not a multi-page form');
     return;
   }
 
